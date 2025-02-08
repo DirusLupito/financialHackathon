@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.walk1 {
+    width: 150px;
+    height: 300px;
+    background-image: url("img/walk1.png");/ adjust path if needed / background-repeat: no-repeat;
+    background-size: 900px;/ adjust total width if frames differ / animation: w1Effect 1s steps(6) infinite;
+}
