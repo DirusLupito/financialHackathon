@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import './style.css';
+import PlotCanvas from './gambleGame/PlotCanvas';
 
 function App() {
 
@@ -32,6 +33,10 @@ function App() {
           <button className='option'></button>
           <button className='option'></button>
         </div>
+      <div>
+        <h1>Gamble Game</h1>
+        <PlotCanvas />
+      </div>
       </div>
     </div >
   );
