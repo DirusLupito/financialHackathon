@@ -79,30 +79,3 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-/*animation*/
-body {
-  margin: 0;
-}
-
-h1 {
-  text-align: center;
-  font-family: monospace;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.walk1 {
-  width: 150px;
-  height: 300px;
-  background-image: url("img/walk1.png");
-  background-repeat: no-repeat;
-  background-size: 900px;
-  animation: w1Effect 1s steps(6) infinite;
-}

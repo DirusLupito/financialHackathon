@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import './style.css';
 
 function App() {
 
@@ -18,9 +19,8 @@ function App() {
           <h2 className='balance'>Balance: {player.balance}</h2>
         </div>
         <div className='main-screen'>
-          <div className="container">
-            {/* The animated div */}
-            <div className="walk1"></div>
+          <div className='container'>
+            <div className='walk1'></div>
           </div>
         </div>
       </div>
