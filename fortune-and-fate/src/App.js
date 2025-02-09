@@ -510,7 +510,7 @@ function App() {
 
         <div>
           <h1>Gamble Game</h1>
-          <PlotCanvas />
+          <PlotCanvas balance={balance} setBalance={setBalance} />
         </div>
       </div>
     </div>

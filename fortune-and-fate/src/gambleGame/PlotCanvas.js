@@ -1,8 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 
-const PlotCanvas = () => {
+const PlotCanvas = ({ balance, setBalance }) => {
     const canvasRef = useRef(null);
-    const [balance, setBalance] = useState(1000);
     const [gambleBalance, setGambleBalance] = useState(0);
     const [multiplier, setMultiplier] = useState(1.00);
     const [buyInAmount, setBuyInAmount] = useState('');
