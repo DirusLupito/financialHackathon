@@ -85,7 +85,6 @@ const PlotCanvas = ({ balance, setBalance }) => {
             setBalance(balance + sellAmount);
             console.log(`Sold!`);
             setGambleBalance(0);
-            setMultiplier(1); // Reset multiplier after selling
         }
     };
 
