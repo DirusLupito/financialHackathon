@@ -72,6 +72,13 @@ const PlotCanvas = ({ balance, setBalance }) => {
         }
     };
 
+    const handleAllIn = () => {
+        if (balance > 0) {
+            setGambleBalance(gambleBalance + balance);
+            setBalance(0);
+        }
+    };
+
     const handleSell = () => {
         if (gambleBalance > 0) {
             const sellAmount = gambleBalance * multiplier;
@@ -93,6 +100,7 @@ const PlotCanvas = ({ balance, setBalance }) => {
                     placeholder="Enter buy-in amount"
                 />
                 <button onClick={handleBuyIn} disabled={gameState !== 'roundOver'}>Buy In</button>
+                <button onClick={handleAllIn} disabled={gameState !== 'roundOver'}>All In</button>
                 <button onClick={handleSell}>Sell</button>
             </div>
             <div>
