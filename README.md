@@ -1,2 +1,2 @@
 # financialHackathon
-Hack NC State 2025 project
+Hack NC State Feb 2025 project
